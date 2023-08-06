@@ -3,6 +3,7 @@ const nextConfig = {
   experimental: {
     serverActions: true,
     serverComponentsExternalPackages: ["mongoose"],
+    swcMinify: false,
   },
   eslint: {
     // Warning: This allows production builds to successfully complete even if
